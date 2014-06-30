@@ -32,3 +32,4 @@ test.py
 ![Alt text](/fig/2.png "2 clusters")
 ![Alt text](/fig/5.png "5 clusters")
 ![Alt text](/fig/10.png "10 clusters")
+![Alt text](/fig/20.png "20 clusters")
