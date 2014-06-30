@@ -29,7 +29,7 @@ test.py
     if __name__ == "__main__":
 
         # Generate artificial datasets.
-        number_of_blobs = 20  # You can change this!!
+        number_of_blobs = 7  # You can change this!!
         data, labels_true = make_blobs(n_samples=number_of_blobs * 10,
                                        centers=number_of_blobs)
 
