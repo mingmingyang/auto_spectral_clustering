@@ -18,16 +18,16 @@ It requires NumPy, SciPy, and scikit-learn.
 
 Examples
 ==========
-You can change number_of_clusters(artificial datasets) and test it!!
+You can change number_of_blobs(artificial datasets) and test it!!
 
 test.py
     
     if __name__ == "__main__":
 
         # Generate artificial datasets.
-        number_of_clusters = 5  # You can change this!!
-        data, labels_true = make_blobs(n_samples=number_of_clusters * 10,
-                                    centers=number_of_clusters)
+        number_of_blobs = 20  # You can change this!!
+        data, labels_true = make_blobs(n_samples=number_of_blobs * 10,
+                                       centers=number_of_blobs)
 
 ![Alt text](/fig/2.png)
 ![Alt text](/fig/7.png)
