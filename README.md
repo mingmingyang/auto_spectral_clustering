@@ -29,7 +29,7 @@ test.py
         data, labels_true = make_blobs(n_samples=number_of_clusters * 10,
                                     centers=number_of_clusters)
 
-![Alt text](/fig/2.png "2 clusters")
-![Alt text](/fig/5.png "5 clusters")
-![Alt text](/fig/10.png "10 clusters")
-![Alt text](/fig/20.png "20 clusters")
+![Alt text](/fig/2.png)
+![Alt text](/fig/7.png)
+![Alt text](/fig/12.png)
+![Alt text](/fig/20.png)

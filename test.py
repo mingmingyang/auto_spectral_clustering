@@ -68,7 +68,7 @@ def color_map(labels):
 if __name__ == "__main__":
 
     # Generate artificial datasets.
-    number_of_clusters = 5  # You can change this!!
+    number_of_clusters = 20  # You can change this!!
     data, labels_true = make_blobs(n_samples=number_of_clusters * 10,
                                 centers=number_of_clusters)
 
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     labels_pred, k = main(affinity_matrix)
 
     print("%d clusters(artificial datasets)." % number_of_clusters)
-    print("%d clusters(estimated)." % k)
+    print("%d clusters(predicted)." % k)
 
     # Plot.
     from pylab import *
@@ -95,7 +95,7 @@ if __name__ == "__main__":
     scatter(data[:, 0], data[:, 1], s=150, c=t)
 
     subplot(212)
-    title("%d clusters(estimated)." % k)
+    title("%d clusters(predicted)." % k)
     scatter(data[:, 0], data[:, 1], s=150, c=p)
 
     show()
