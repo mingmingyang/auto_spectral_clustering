@@ -18,7 +18,8 @@ Dependencies
 ==========
 auto_spectral_clustering is tested under Python 3.3.5.
 
-It requires NumPy, SciPy, and scikit-learn.
+It requires NumPy, SciPy, scikit-learn.
+If you test it, it also requires matplotlib.
 
 Usage
 ==========
