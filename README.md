@@ -33,3 +33,7 @@ test.py
 ![Alt text](/fig/7.png)
 ![Alt text](/fig/12.png)
 ![Alt text](/fig/20.png)
+
+License
+==========
+New BSD License.
