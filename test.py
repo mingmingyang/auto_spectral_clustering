@@ -54,10 +54,10 @@ if __name__ == "__main__":
                             affinity="precomputed",
                             assign_labels="kmeans").fit(affinity_matrix)
 
+    labels_pred = sc.labels_
+
     print("%d blobs(artificial datasets)." % number_of_blobs)
     print("%d clusters(predicted)." % k)
-
-    labels_pred = sc.labels_
 
     # Plot.
     from pylab import *
