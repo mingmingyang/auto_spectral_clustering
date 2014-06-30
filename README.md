@@ -5,6 +5,10 @@ Spectral clustering is one of the most popular modern clustering algorithms.
 
 auto_spectral_clustering predicts number of clusters based on the eigengap(often referred to as spectral gap).
 
+License
+==========
+New BSD License.
+
 References
 ==========
   A Tutorial on Spectral Clustering, 2007, Luxburg, Ulrike
@@ -33,7 +37,3 @@ test.py
 ![Alt text](/fig/7.png)
 ![Alt text](/fig/12.png)
 ![Alt text](/fig/20.png)
-
-License
-==========
-New BSD License.
