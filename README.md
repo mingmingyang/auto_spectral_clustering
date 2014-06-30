@@ -13,8 +13,10 @@ It requires NumPy, SciPy, and scikit-learn.
 
 Examples
 ========================
-You can change number_of_clusters(artificial datasets) and test it(test.py)!!
-    $if __name__ == "__main__":
+You can change number_of_clusters(artificial datasets) and test it!!
+
+test.py
+    if __name__ == "__main__":
 
         # Generate artificial datasets.
         number_of_clusters = 5  # You can change this!!
