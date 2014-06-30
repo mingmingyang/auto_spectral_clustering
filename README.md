@@ -23,6 +23,7 @@ It requires NumPy, SciPy, and scikit-learn.
 Usage
 ==========
     from autosp import predict_k
+    from sklearn.cluster import SpectralClustering
 
     k = predict_k(affinity_matrix)
     sc = SpectralClustering(n_clusters=k,
