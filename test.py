@@ -68,9 +68,9 @@ def color_map(labels):
 if __name__ == "__main__":
 
     # Generate artificial datasets.
-    number_of_clusters = 20  # You can change this!!
-    data, labels_true = make_blobs(n_samples=number_of_clusters * 10,
-                                centers=number_of_clusters)
+    number_of_blobs = 7  # You can change this!!
+    data, labels_true = make_blobs(n_samples=number_of_blobs * 10,
+                                   centers=number_of_blobs)
 
     # Calculate affinity_matrix.
     connectivity = kneighbors_graph(data, n_neighbors=10)
@@ -78,7 +78,7 @@ if __name__ == "__main__":
 
     labels_pred, k = main(affinity_matrix)
 
-    print("%d clusters(artificial datasets)." % number_of_clusters)
+    print("%d blobs(artificial datasets)." % number_of_blobs)
     print("%d clusters(predicted)." % k)
 
     # Plot.
@@ -91,7 +91,7 @@ if __name__ == "__main__":
 
 
     subplot(211)
-    title("%d clusters(artificial datasets)." % number_of_clusters)
+    title("%d blobs(artificial datasets)." % number_of_blobs)
     scatter(data[:, 0], data[:, 1], s=150, c=t)
 
     subplot(212)
