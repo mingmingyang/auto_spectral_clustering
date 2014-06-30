@@ -16,6 +16,7 @@ Examples
 You can change number_of_clusters(artificial datasets) and test it!!
 
 test.py
+    
     if __name__ == "__main__":
 
         # Generate artificial datasets.
