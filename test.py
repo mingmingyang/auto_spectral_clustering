@@ -8,7 +8,7 @@ from sklearn.neighbors import kneighbors_graph
 from autosp import predict_k
 
 
-def color_map(labels):
+def consistent_labels(labels):
     """Achieve "some" consistency of color between true labels and pred labels.
 
 
@@ -61,10 +61,10 @@ if __name__ == "__main__":
 
     # Plot.
     from pylab import *
-    t_map = color_map(labels_true)
+    t_map = consistent_labels(labels_true)
     t = [t_map[v] for v in labels_true]
 
-    p_map = color_map(labels_pred)
+    p_map = consistent_labels(labels_pred)
     p = [p_map[v] for v in labels_pred]
 
     subplot(211)
