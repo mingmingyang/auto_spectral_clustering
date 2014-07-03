@@ -42,9 +42,7 @@ def predict_k(affinity_matrix):
 
     """
     n_components size is N - 1.
-    Setting N - 1 may lead to slow execution time.
-    A better approach is to set (N / 2)^(1/2)
-    http://en.wikipedia.org/wiki/Determining_the_number_of_clusters_in_a_data_set
+    Setting N - 1 may lead to slow execution time...
     """
     n_components = affinity_matrix.shape[0] - 1
 
