@@ -16,7 +16,7 @@ New BSD License.
 
 Notes
 ==========
-  the eigengap heuristic usually works well if the data contains very well pronounced clusters, but in ambiguous cases it also returns ambiguous results.[1]
+  The eigengap heuristic usually works well if the data contains very well pronounced clusters, but in ambiguous cases it also returns ambiguous results.[1]
 
 Dependencies
 ==========
