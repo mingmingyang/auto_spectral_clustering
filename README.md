@@ -7,12 +7,16 @@ auto_spectral_clustering predicts number of clusters based on the eigengap(often
 
 References
 ==========
-  A Tutorial on Spectral Clustering, 2007, Luxburg, Ulrike
+  A Tutorial on Spectral Clustering, 2007, Luxburg, Ulrike[1]
   <http://www.kyb.mpg.de/fileadmin/user_upload/files/publications/attachments/Luxburg07_tutorial_4488%5b0%5d.pdf>
 
 License
 ==========
 New BSD License.
+
+Notes
+==========
+  the eigengap heuristic usually works well if the data contains very well pronounced clusters, but in ambiguous cases it also returns ambiguous results.[1]
 
 Dependencies
 ==========
