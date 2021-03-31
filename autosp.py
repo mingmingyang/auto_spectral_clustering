@@ -29,8 +29,8 @@ def predict_k(affinity_matrix):
     ----------
     A Tutorial on Spectral Clustering, 2007
         Luxburg, Ulrike
-        http://www.kyb.mpg.de/fileadmin/user_upload/files/publications/attachments/Luxburg07_tutorial_4488%5b0%5d.pdf
-
+        http://www.tml.cs.uni-tuebingen.de/team/luxburg/publications/Luxburg07_tutorial.pdf
+   
     """
 
     """
